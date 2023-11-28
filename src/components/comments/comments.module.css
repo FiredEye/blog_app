@@ -1,0 +1,62 @@
+.container{
+  margin-top: 50px;
+}
+
+.title{
+  font-size: 42px;
+}
+
+.write{
+  margin-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.input{
+  width: 100%;
+  padding: 16px;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+}
+
+.button{
+  padding: 12px 24px;
+  color:white;
+  background-color: teal;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.comments{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user{
+  display: flex;
+  gap: 10px;
+}
+.image{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--softTextColor);
+}
